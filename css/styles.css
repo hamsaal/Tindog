@@ -1,0 +1,144 @@
+/* HTML-TAGS */
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/* SECTION */
+.colored-section {
+  background-color: #ff5c68;
+  color: white;
+}
+
+.white-section {
+  background-color: #ffffff;
+  color: black;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* BUTTONS */
+.btn {
+  margin: 5% 3% 5% 0;
+}
+
+.apple {
+  margin-right: 10px;
+}
+
+.windows {
+  margin-right: 10px;
+}
+
+/* TITLE */
+#title .container-fluid {
+  padding: 3% 15%;
+  text-align: left;
+}
+
+/* NAVIGATION-BAR */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-weight: lighter;
+  font-size: 0.8rem;
+}
+
+.title-catch-line {
+  font-weight: bolder;
+  font-size: 2.5rem;
+  line-height: 2;
+  color: white;
+}
+
+.iphone {
+  width: 250px;
+  transform: rotate(25deg);
+  position: absolute;
+  top: 250px;
+  right: 240px;
+}
+
+/* Features-Section */
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.features-column {
+  text-align: center;
+  margin-bottom: 0.3rem;
+  padding: 5%;
+}
+
+.features-heading {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.features-icon {
+  color: #ef8172;
+  margin-bottom: 0.8rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.features-para {
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+.testimonial-image {
+  margin-top: 2rem;
+  width: 10%;
+  border-radius: 100%;
+}
+
+/* press */
+.press-image {
+  width: 15%;
+  margin: 1rem 1rem 3rem;
+}
+
+/* cta */
+.logo {
+  margin-right: 10px;
+}
+
+/* footer */
+.footer_para {
+  margin-top: 20px;
+}
+
+/* media queries */
+@media (max-width: 991px) {
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title .container-fluid{
+    text-align: center;
+  }
+}
